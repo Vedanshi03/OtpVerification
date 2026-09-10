@@ -18,7 +18,7 @@ const emailSchema = new mongoose.Schema({
     },
     otp: {
         type: String,
-        required: true
+        required: false
     }
 });
 
